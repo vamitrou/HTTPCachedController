@@ -20,8 +20,4 @@ Example usage:
 
 and the completion listener implements the HTTPCachedControllerDelegate's:
 
-
-- (void)connectionFinishedWithData:(NSString*)data andRequestType:(int)reqType
-{
-    NSLog(@"data for request type: %d: \n%@", reqType, data);
-}
+    connectionFinishedWithData:(NSString*)data andRequestType:(int)reqType
